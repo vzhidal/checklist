@@ -1,0 +1,26 @@
+{
+  "name": "checklist",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vzhidal/checklist",
+  "authors": [
+    "Vladimir.Zhidal <vzhidal@mercle.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "~3.3.0",
+    "bootstrap": "~3.3.4",
+    "codemirror": "~5.3.0",
+    "js-beautify": "~1.5.6"
+  }
+}

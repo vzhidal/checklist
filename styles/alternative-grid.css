@@ -1,0 +1,14 @@
+.alternative-grid {
+    display: table;
+    width: 100%;
+}
+
+.alternative-grid__cell {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.alternative-grid__cell:last-child {
+    padding-right: 0;
+}

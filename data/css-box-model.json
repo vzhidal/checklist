@@ -1,0 +1,75 @@
+{
+    "title": "CSS Box Model",
+    "questions": [
+        {
+            "id": 1,
+            "complexity": 2,
+            "question": "What is the distance between the top outer edge of the .box1 and .bottom border edge of the .box2?",
+            "codeSnippets": [
+                {
+                    "title": "HTML",
+                    "mode": "htmlmixed",
+                    "code": "<div class=\"box box1\"></div><div class=\"box box2\"></div>"
+                },
+                {
+                    "title": "CSS",
+                    "mode": "css",
+                    "code": ".box{height: 40px;margin: 40px 0;} .box1{background: red;} .box2{margin-top: 60px;background: green;}"
+                }
+            ],
+            "variants": [
+                {
+                    "id": 1,
+                    "text": "160px"
+                },
+                {
+                    "id": 2,
+                    "text": "180px"
+                },
+                {
+                    "id": 3,
+                    "text": "200px"
+                },
+                {
+                    "id": 4,
+                    "text": "220px"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "complexity": 2,
+            "question": "What is the distance between the top outer edge of the .box1 and .bottom outer edge of the .box3?",
+            "codeSnippets": [
+                {
+                    "title": "HTML",
+                    "mode": "htmlmixed",
+                    "code": "<div class=\"box box1\"></div><div class=\"box box3\"><div class=\"box box2\"></div></div>"
+                },
+                {
+                    "title": "CSS",
+                    "mode": "css",
+                    "code": ".box{height: 40px;margin: 40px 0;}.box1{background: red;}.box2{margin-top: 60px;background: green;}.box3{background: blue;padding: 10px;}"
+                }
+            ],
+            "variants": [
+                {
+                    "id": 1,
+                    "text": "180px"
+                },
+                {
+                    "id": 2,
+                    "text": "220px"
+                },
+                {
+                    "id": 3,
+                    "text": "260px"
+                },
+                {
+                    "id": 4,
+                    "text": "300px"
+                }
+            ]
+        }
+    ]
+}
